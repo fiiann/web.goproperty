@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Basic Form</title>
+
+	<link rel="stylesheet" href="assets/demo.css">
+	<link rel="stylesheet" href="assets/form-basic.css">
+	<link rel="stylesheet" href="assets/form-basic.css">
+
+
+	<header>
+		<h1>GoProperty</h1>
+        <a href="../">Home</a>
+    </header>
+
+
+
+
+    <div class="main-content">
+
+        <!-- You only need this form and the form-basic.css -->
+
+        <form class="form-basic" method="post" action="#">
+
+            <div class="form-title-row">
+                <h1>Form</h1>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Nama Lengkap</span>
+                    <input type="text" name="nama" required>
+                </label>
+            </div>
+
+						<div class="form-row">
+                <label>
+                    <span>Alamat</span>
+                    <textarea required name="alamat"></textarea>
+                </label>
+            </div>
+
+
+						<!-- ganti dinamis nanti  -->
+            <div class="form-row">
+                <label>
+                    <span>Pilih Agen</span>
+                    <select name="pilih_agen" required>
+												<option selected>pilih agen</option>
+                        <option>Jundana</option>
+                        <option>Hafidh Aulia</option>
+                        <option>Aditia P</option>
+                        <option>Farid M</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Alamat Properti</span>
+                    <textarea required name="alamat_property"></textarea>
+                </label>
+            </div>
+
+						<!-- diganti yang bisa ganti angka -->
+						<div class="form-row">
+                <label>
+                    <span>Luas Tanah</span>
+                    <input type="text" name="luas_tanah" required>
+                </label>
+            </div>
+
+						<!-- diganti yang bisa ganti angka -->
+						<div class="form-row">
+                <label>
+                    <span>Luas Bangunan</span>
+                    <input type="text" name="luas_bangunan" required>
+                </label>
+            </div>
+
+            <!-- <div class="form-row">
+                <label>
+                    <span>Checkbox</span>
+                    <input type="checkbox" name="checkbox" checked>
+                </label>
+            </div> -->
+
+            <div class="form-row">
+                <label><span>Orientasi / Hadap </span></label>
+                <div class="form-radio-buttons" >
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio" checked>
+                            <span>Utara</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>Selatan</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>Timur</span>
+                        </label>
+                    </div>
+
+										<div>
+                        <label>
+                            <input type="radio" name="radio">
+                            <span>Barat</span>
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+
+						<div class="form-row">
+                <label>
+                    <span>Telp</span>
+                    <input type="text" name="telp" required>
+                </label>
+            </div>
+
+						<div class="form-row">
+                <label>
+                    <span>AC</span>
+                    <input type="text" name="ac" required>
+                </label>
+            </div>
+
+						<div class="form-row">
+                <label>
+                    <span>PLN</span>
+                    <input type="text" name="pln" required>
+                </label>
+            </div>
+
+						<div class="form-row">
+                <label>
+                    <span>PAM</span>
+                    <input type="text" name="pam" required>
+                </label>
+            </div>
+
+						<!-- diganti angka -->
+						<div class="form-row">
+                <label>
+                    <span>Jumlah Lantai</span>
+                    <input type="text" name="jumlah_lantai" required>
+                </label>
+            </div>
+
+						<!-- diganti angka -->
+						<div class="form-row">
+                <label>
+                    <span>Jumlah Kamar Tidur</span>
+                    <input type="text" name="jumlah_kamar_tidur" required>
+                </label>
+            </div>
+
+
+						<!-- diganti angka -->
+						<div class="form-row">
+                <label>
+                    <span>Jumlah Kamar Mandi</span>
+                    <input type="text" name="jumlah_kamar_mandi" required>
+                </label>
+            </div>
+
+
+						<!-- bingung -->
+						<div class="form-row">
+                <label>
+                    <span>Garasi / Carpot</span>
+                    <input type="text" name="garasi" required>
+                </label>
+            </div>
+
+						<!-- bingung -->
+						<div class="form-row">
+                <label>
+                    <span>Dapur</span>
+                    <input type="text" name="dapur" required>
+                </label>
+            </div>
+
+						<!-- bingung -->
+						<div class="form-row">
+                <label>
+                    <span>Furniture</span>
+                    <input type="text" name="furniture" required>
+                </label>
+            </div>
+
+						<!-- diganti angka -->
+						<div class="form-row">
+                <label>
+                    <span>Harga Penawaran (Jual)</span>
+                    <input type="text" name="harga_tawar" required>
+                </label>
+            </div>
+
+						<!-- diganti angka -->
+						<div class="form-row">
+                <label>
+                    <span>Harga Penawaran (Sewa)</span>
+                    <input type="text" name="harga_sewa" required>
+                </label>
+            </div>
+
+						<!-- upload KTP -->
+						<div class="form-row">
+                <label>
+										<span>Upload KTP</span>
+										<input type="file" id="imgInp" required>
+                </label>
+            </div>
+
+
+
+            <div class="form-row">
+                <button type="submit">Submit Form</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+<script src="assets/jquery-3.2.1.min.js"></script>
+<script src="assets/bootstrap-imageupload.js"></script>
+</html>
